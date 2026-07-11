@@ -94,13 +94,6 @@ body {
     background-color: #333332;
     box-shadow: 0px 1px 10px  #333332;
 }
-.menu-toggle{
-    display: none;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-}
 
 .nav-links a {
     color: var(--text-secondary);
@@ -424,9 +417,7 @@ body {
         padding: 20px;
         box-sizing: border-box;
     }
-    .menu-toggle{
-        display: block;
-    }
+
     .btn-primary{
         font-size:12px;
         padding: 5px 5px;
