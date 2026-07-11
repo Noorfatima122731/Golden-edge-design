@@ -626,10 +626,11 @@ body {
 
 @media (max-width: 900px) {
     .services-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) ;
     }
     .layout-span-2 {
         grid-column: span 2;
+        
     }
     .stats-bar {
         grid-template-columns: repeat(2, 1fr);
@@ -642,10 +643,12 @@ body {
         padding: 40px 0;
     }
     .services-grid {
+        display: grid;
+        gap: 16px;
         grid-template-columns: 1fr;
     }
     .layout-span-2 {
-        grid-column: span 1;
+        grid-column: span 2;
     }
     .stats-bar {
         grid-template-columns: 1fr;
